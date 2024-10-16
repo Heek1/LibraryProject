@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-image: url(/images/khaled-khazna-8ucgA-rUIio-unsplash.jpg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+h1 {
+    text-align: center;
+    color: pink;
+}
+h2{
+    text-align: center;
+    color: pink;
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+/* ==============================================header==================================================== */
+.library-assistant {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 28px;
+    color: brown;
+}
+
+.header-wrap {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+}
+
+.menu {
+    gap: 30px;
+}
+
+.menu a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    color: pink;
+}
+
+
+/* ==============================================book-list==================================================== */
+
+
+::placeholder {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+
+.add-book-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-book-form input {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-book-form button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: brown;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-book-form button:hover {
+    background-color: yellow;
+}
+
+.book-list {
+    align-items: center;
+}
+
+.book-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.book-list li {
+    background-color: wheat;
+    padding: 10px;
+    margin: 10px 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.book-list li span {
+    font-weight: bold;
+}
+
+.butDel {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.butDel:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+.myBut {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.myBut:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+
+
+/* ==============================================people-list==================================================== */
+
+
+::placeholder {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+
+.add-people-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-people-form input {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-people-form button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: brown;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-people-form button:hover {
+    background-color: yellow;
+}
+.person-list {
+    align-items: center;
+}
+
+.person-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.person-list li {
+    background-color: wheat;
+    padding: 10px;
+    margin: 10px 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.person-list li span {
+    font-weight: bold;
+}
+
+.butDel {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.butDel:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+.butRedact {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+.butRedact:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+
+.myBut {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.myBut:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+
+
+/* ==============================================cart-list==================================================== */
+
+
+::placeholder {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+.add-cart-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.add-cart-form input {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.add-cart-form button {
+    padding: 10px 20px;
+    background-color: lightgreen;
+    color: brown;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-cart-form button:hover {
+    background-color: yellow;
+}
+
+.cart-list {
+    align-items: center;
+}
+
+.cart-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cart-list li {
+    background-color: wheat;
+    padding: 10px;
+    margin: 10px 700px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.cart-list li span {
+    font-weight: bold;
+}
+
+.butDel {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.butDel:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+.myBut {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.myBut:hover {
+    background-color: rgb(255, 0, 13);
+}
+
+/* ==============================================stats-list==================================================== */
+
+.staticBtn{
+    padding: 10px 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 855px;
+}
+.staticBtn:hover {
+    background-color: rgb(255, 0, 13);
+}
+.popularBooksList {
+    align-items: center;
+    justify-content: center;
+}
+
+.popularBooksList ul {
+    list-style: none;
+    padding: 0;
+}
+
+.popularBooksList li {
+    background-color: wheat;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.popularBooksList li span {
+    font-weight: bold;
+}
+
+
+
+
+.activeVisitorsList {
+    align-items: center;
+    justify-content: center;
+}
+
+.activeVisitorsList ul {
+    list-style: none;
+    padding: 0;
+}
+
+.activeVisitorsList li {
+    background-color: wheat;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.activeVisitorsList li span {
+    font-weight: bold;
+}
+.activeVisitorsList{
+    display: none;
+}
+.popularBooksList{
+    display: none;
+}
+.hid{
+    display: flex;
+}
+/* ==============================================Modal-window==================================================== */
+.bookModal{
+    display: none;
+}
+.clientModal{
+    display: none;
+}
+.cartModal{
+    display: none;
+}
+.staticModal{
+    display: none;
+}
+.hidden{
+    display: block;
+}

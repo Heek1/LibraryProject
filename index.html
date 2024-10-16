@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/ctyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-wrap flex">
+            <div class="library-assistant">
+                <p>Library assistant</p>
+            </div>
+            <div>
+                <nav>
+                    <ul class="menu flex">
+                        <li><a href="#" id="pulseBtn1">Books</a></li>
+                        <li><a href="#" id="pulseBtn2">Visitors</a></li>
+                        <li><a href="#" id="pulseBtn3">Cards</a></li>
+                        <li><a href="#" id="pulseBtn4">Stats</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="bookModal" class="bookModal">
+        <h1>Books</h1>
+        <div class="add-book-form">
+            <input type="text" id="book-name" placeholder="Name of book">
+            <input type="text" id="book-author" placeholder="Name author of book">
+            <input type="text" id="book-num" placeholder="number of copies">
+            <button id="add-book-button">Add book</button>
+        </div>
+        <div class="book-list">
+            <h2>List with books</h2>
+            <ul id="book-list-ul">
+            </ul>
+        </div>
+    </div>
+
+    <div id="clientModal" class="clientModal">
+        <h1>Peoples</h1>
+        <div class="add-people-form">
+            <input type="text" id="people-name" placeholder="Name">
+            <input type="text" id="people-surname" placeholder="Surname">
+            <input type="text" id="people-id" placeholder="Id">
+            <button id="add-person-button">Add person</button>
+        </div>
+        <div class="person-list">
+            <h2>List with peoples</h2>
+            <ul id="person-list-ul">
+            </ul>
+        </div>
+    </div>
+
+    <div id="cartModal" class="cartModal">
+        <h1>Carts</h1>
+        <div class="add-cart-form">
+            <input type="text" id="cart-name" placeholder="Name of book">
+            <input type="text" id="cart-author" placeholder="Name author of book">
+            <button id="add-cart-button">Add cart</button>
+        </div>
+        <div class="cart-list">
+            <h2>List with carts</h2>
+            <ul id="cart-list-ul">
+            </ul>
+        </div>
+    </div>
+
+    <div id="staticModal" class="staticModal">
+        <div class="sc">
+            <h1 id="statisticsSection">Stats</h1>
+            <button class="staticBtn">look stats</button>
+            <div id="statistics">
+                <h2>5 Most popular books:</h2>
+                <ul id="popularBooksList" class="popularBooksList flex">
+                    <li>
+                        <img src="/images/50328_120832.jpg" alt="img1" class="img"> <br> 
+                        Outsider<br> 
+                        Stiven King<br> 
+                        2<br> 
+                    </li>
+                    <li>
+                        <img src="/images/16684_0.jpg" alt="img2" class="img"> <br> 
+                        Berserk<br> 
+                        Kentaro Miura<br> 
+                        7<br> 
+                    </li>
+                    <li>
+                        <img src="/images/Vinland_Saga.jpg" alt="img3" class="img"> <br> 
+                        Vinland Sage<br> 
+                        Makoto Yokimura<br> 
+                        5<br> 
+                    </li>
+                    <li>
+                        <img src="/images/36236124.jpg" alt="img4" class="img"> <br> 
+                        Fight Club<br> 
+                        Chuck Palahniuk <br> 
+                        1<br> 
+                    </li>
+                    <li>
+                        <img src="/images/81jz1efshhl.jpg" alt="img5" class="img"> <br> 
+                        American Psycho<br> 
+                        Bred Iston Ellis<br> 
+                        0<br> 
+                    </li>
+                </ul>
+         
+                <h2>5 Most popular visiters:</h2>
+                <ul id="activeVisitorsList" class="activeVisitorsList flex">
+                    <li>
+                        <span>Name of person:</span> Jeck <br> 
+                        <span>Surname of person:</span> Fresko<br> 
+                        <span>ID of person:</span>153012<br>  
+                        <span>Number of books:</span>289<br>  
+                    </li>
+                    <li>
+                        <span>Name of person:</span> Bonny <br> 
+                        <span>Surname of person:</span> Backard<br> 
+                        <span>ID of person:</span>133089<br>  
+                        <span>Number of books:</span>227<br>  
+                    </li>
+                    <li>
+                        <span>Name of person:</span> Vlad <br> 
+                        <span>Surname of person:</span> Yuzevych<br> 
+                        <span>ID of person:</span>120993<br>  
+                        <span>Number of books:</span>198<br>  
+                    </li>
+                    <li>
+                        <span>Name of person:</span> Mike <br> 
+                        <span>Surname of person:</span> Jordan<br> 
+                        <span>ID of person:</span>103092<br>  
+                        <span>Number of books:</span>158<br>  
+                    </li>
+                    <li>
+                        <span>Name of person:</span> Jonathan <br> 
+                        <span>Surname of person:</span> Biker<br> 
+                        <span>ID of person:</span>191190<br>  
+                        <span>Number of books:</span>155<br>  
+                    </li>
+                    
+                </ul>
+            </div>
+    </div>
+
+
+    <script src="/index.js"></script>
+</body>
+
+</html>
